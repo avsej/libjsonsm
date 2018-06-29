@@ -10,5 +10,7 @@
 int main(int argc, char *argv[])
 {
     printf(LJSM_ID "\n");
+    (void)argc;
+    (void)argv;
     return 0;
 }

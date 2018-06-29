@@ -55,14 +55,15 @@ list2args(LJSM_GNUC_CPP_WARNINGS)
 
 LIST(APPEND LJSM_GNUC_C_WARNINGS
   ${LJSM_GNUC_CPP_WARNINGS}
-  -std=gnu99
+  -std=c99
   -Wundef -Wstrict-prototypes -Wmissing-prototypes -Wredundant-decls
   -Wmissing-declarations)
 list2args(LJSM_GNUC_C_WARNINGS)
 
 LIST(APPEND LJSM_GNUC_CXX_WARNINGS
   ${LJSM_GNUC_CPP_WARNINGS}
-  -std=gnu++98 -Woverloaded-virtual -Wnon-virtual-dtor -Wctor-dtor-privacy
+  -std=c++11
+  -Woverloaded-virtual -Wnon-virtual-dtor -Wctor-dtor-privacy
   -Wno-long-long -Wredundant-decls)
 list2args(LJSM_GNUC_CXX_WARNINGS)
 
