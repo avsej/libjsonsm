@@ -1,0 +1,9 @@
+#
+# Copyright 2018 Couchbase, Inc. All rights reserved.
+#
+
+BUILDROOT=${CMAKE_BINARY_DIR}
+SRCROOT=${CMAKE_SOURCE_DIR}
+REVDESCRIBE=${LJSM_REVDESCRIBE}
+PACKAGE=libjsonsm
+VERSION=${LJSM_VERSION}

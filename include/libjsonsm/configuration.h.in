@@ -1,0 +1,15 @@
+/* -*- Mode: C; tab-width: 4; c-basic-offset: 4; indent-tabs-mode: nil -*- */
+/*
+ * Copyright 2018 Couchbase, Inc. All rights reserved.
+ */
+
+#ifndef LIBJSONSM_CONFIGURATION_H
+#define LIBJSONSM_CONFIGURATION_H 1
+
+#define LJSM_VERSION_STRING "@LJSM_VERSION@"
+#define LJSM_VERSION @LJSM_VERSION_HEX@
+#define LJSM_VERSION_CHANGESET "@LJSM_VERSION_CHANGESET@"
+
+#define LJSM_ID "libjsonsm/" LJSM_VERSION_STRING
+
+#endif /* LIBJSONSM_CONFIGURATION_H */
