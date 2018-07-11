@@ -6,6 +6,6 @@
 # within the library.
 # This is included by the top-level CMakeLists.txt
 
-FILE(GLOB LJSM_CORE_SRC src/*.c)
+FILE(GLOB LJSM_CORE_SRC src/*.c contrib/jsonsl/*.c)
 
 FILE(GLOB LJSM_TOOLS_SRC tools/*.c)
